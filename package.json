@@ -1,0 +1,40 @@
+{
+  "name": "session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SET NODE_ENV=production& SET MONGODB_USER=jenil& SET MONGODB_PASSWORD=jenil123& SET MONGODB_DEFAULT_DATABASE=shop& SET STRIPE_KEY=sk_test_51Lo4zWSEkj0dATtFGlgoBgO3WAJTlRYTIudvfrdfL92d8Im25FhVS9ANTOl6VDHhDB7nQGN956I2KZUNJpB5KsOk00BiUPhFu1& SET EMAIL_USER=gotijenil23@gmail.com& SET EMAIL_PASSWORD=xhzlczybogdpvipr& node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "helmet": "^6.0.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^6.7.8",
+    "pdfkit": "^0.13.0",
+    "pug": "^2.0.3",
+    "sequelize": "^5.0.0-beta.11",
+    "stripe": "^10.12.0"
+  }
+}
