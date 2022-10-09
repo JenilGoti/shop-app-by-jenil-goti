@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "16.17.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "SET NODE_ENV=production& SET MONGODB_USER=jenil& SET MONGODB_PASSWORD=jenil123& SET MONGODB_DEFAULT_DATABASE=shop& SET STRIPE_KEY=sk_test_51Lo4zWSEkj0dATtFGlgoBgO3WAJTlRYTIudvfrdfL92d8Im25FhVS9ANTOl6VDHhDB7nQGN956I2KZUNJpB5KsOk00BiUPhFu1& SET EMAIL_USER=gotijenil23@gmail.com& SET EMAIL_PASSWORD=xhzlczybogdpvipr& node app.js",
