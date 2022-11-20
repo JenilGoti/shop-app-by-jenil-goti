@@ -3,7 +3,7 @@
         "MONGODB_USER":"jenil",
         "MONGODB_PASSWORD":"jenil123",
         "MONGODB_DEFAULT_DATABASE":"shop",
-        "STRIPE_KEY":"sk_test_51Lo4zWSEkj0dATtFGlgoBgO3WAJTlRYTIudvfrdfL92d8Im25FhVS9ANTOl6VDHhDB7nQGN956I2KZUNJpB5KsOk00BiUPhFu1",
+        "STRIPE_KEY":" ",
         "EMAIL_USER":"gotijenil23@gmail.com",
         "EMAIL_PASSWORD":"xhzlczybogdpvipr"
     }

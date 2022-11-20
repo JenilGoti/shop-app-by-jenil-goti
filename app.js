@@ -65,11 +65,11 @@ const accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'),
   flags: 'a'
 })
 
-app.use(helmet())
-app.use(compression())
-app.use(morgan('combined', {
-  stream: accessLogStream
-}))
+// app.use(helmet())
+// app.use(compression())
+// app.use(morgan('combined', {
+//   stream: accessLogStream
+// }))
 
 app.use(bodyParser.urlencoded({
   extended: false

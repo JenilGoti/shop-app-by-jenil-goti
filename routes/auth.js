@@ -10,9 +10,6 @@ const {
 const authController = require('../controllers/auth');
 
 const User = require('../models/user');
-const {
-    nextObject
-} = require('mongodb/lib/operations/common_functions');
 
 const router = express.Router();
 
@@ -66,7 +63,7 @@ router.post("/singup", [check('email')
         console.log(req.body.password);
         if (value !== req.body.password) {
             throw new Error('Password Have to match!');
-        } 
+        }
         return true;
     })
     .trim()

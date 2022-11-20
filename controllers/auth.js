@@ -222,7 +222,7 @@ exports.postLogout = (req, res, next) => {
         if (err) {
             console.log(err);
         }
-        res.redirect('/')
+        res.redirect('/');
     })
 
 };
@@ -283,7 +283,7 @@ exports.postReset = (req, res, next) => {
                     <p> you requested a password reset </p>
                     <p> Click this link to set a new password.</p>
                     <a href="https://shop-app-by-jenil-goti.herokuapp.com/reset/${tokan}">Reset Password</a>
-                    
+
                     `
                 };
                 transporter.sendMail(mailConfigurations).then().catch(err => {
